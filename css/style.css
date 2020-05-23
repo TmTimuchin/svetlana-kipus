@@ -1,0 +1,192 @@
+* {
+  font-family: 'arial narrow', sans-serif;
+}
+
+html {
+  background-color: #eee;
+}
+
+input:focus, input:active {
+  outline: none;
+}
+
+/* header */
+.nav-item {
+  margin-left: 15px;
+}
+
+.navi:hover {
+  box-shadow:
+    inset 0 -0.175em white,
+    inset 0 -0.4em red;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.flaticon-header {
+  width: 20px;
+
+  transition: 0.2s;
+}
+
+.flaticon-header:hover {
+  transform: scale(1.2);
+}
+
+
+
+/* main */
+.card-main {
+  transition: 0.2s;
+}
+
+.card-main:hover {
+  transform: scale(1.05);
+}
+
+section {
+  padding: 40px 15px;
+}
+
+.main-link {
+  font-size: 1.2rem;
+  transition: color 0.5s;
+  color: #343a40;
+}
+
+.main-link:hover {
+  text-decoration: none;
+  color: #990d0d;
+}
+
+/* projects_main */
+#link_to_calc:hover {
+  text-decoration: none;
+}
+
+#link_to_calc span {
+  background: red;
+  color: white;
+}
+
+#span2 {
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+}
+
+/* design */
+#design {
+  background: #eee;
+}
+
+#design_text {
+  font-size: 1.2rem;
+}
+
+/* calc  */
+#calc {
+  background: #eee;
+}
+
+#res {
+  font-size: 1.4rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .8s ease;
+}
+
+/* feedback */
+#feedback {
+  background: #373737;
+  color: #ced4da;
+}
+
+#desc {
+  font-size: 1.17rem;
+}
+
+/* prices */
+.prices {
+  background: #f5f5f5;
+  font-size: 1.1rem;
+  /* height: 220px; */
+}
+
+.price {
+  height: 20px;
+}
+
+.desc {
+  height: 110px; /* media V*/
+}
+
+.dynamic-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .8s ease;
+}
+
+/* services */
+#under {
+  font-size: 1.3rem;
+}
+
+/* portfolio */
+.portfolio {
+  overflow: hidden;
+}
+
+.portfolio-img {
+  transition: 0.2s;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.1);
+}
+
+.j-img {
+  height: 250px;
+}
+
+/* footer */
+footer{
+  background-color: #eee;
+  padding: 25px;
+}
+
+ul, li{
+  list-style-type: none;
+}
+
+.list{
+  margin-top: 15px;
+}
+
+.flaticon-footer {
+  width: 30px;
+
+  transition: 0.2s;
+}
+
+.flaticon-footer:hover {
+  transform: scale(1.2);
+}
+
+/* projects */
+#p_heading_img {
+  filter: brightness(40%);
+}
+
+@media (max-width: 575px) {
+  /* header */
+  .topbar {
+    display: none;
+  }
+  /* prices */
+  .desc {
+    height: 50px;
+  }
+}
